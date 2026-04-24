@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bura.da | Profesyonel Öğrenci ve Yoklama Takip Sistemi</title>
+    <meta name="description" content="Parmak izi cihazlarını bulut tabanlı bir sisteme bağlayan, profesyonel devamsızlık takibi ve veli bilgilendirme çözümü.">
+    <link rel="stylesheet" href="style.css">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="ambient-lights">
+        <div class="light-1"></div>
+        <div class="light-2"></div>
+    </div>
+
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i data-lucide="fingerprint" style="color: #3b82f6;"></i>
+                <span class="brand-name">bura.da</span>
+            </div>
+            <div class="menu-toggle" id="mobile-menu">
+                <i data-lucide="menu"></i>
+            </div>
+            <div class="nav-links">
+                <a href="#features">Özellikler</a>
+                <a href="#dashboard-preview">Panel</a>
+                <a href="#individual-report">Takip</a>
+                <a href="#analytics">Analiz</a>
+                <a href="#absence-tracking">Devamsızlık</a>
+                <a href="#pricing">Fiyatlar</a>
+                <a href="#faq">SSS</a>
+                <div class="nav-indicator"></div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-tag reveal">🚀 YENİ NESİL YOKLAMA DENEYİMİ</div>
+        <h1 class="reveal">Öğrenciniz her an<br><span class="brand-name" style="font-size: 1.2em;">bura.da</span></h1>
+        <p class="reveal">Veliye huzur, kuruma hız veren biyometrik takip sistemi. Parmak izi teknolojisiyle yoklama zahmetini bitirin, velileri saniyeler içinde bilgilendirin.</p>
+        <div class="hero-actions reveal">
+            <a href="#features" class="cta-button">Hemen Keşfet</a>
+            <a href="#pricing" class="cta-button secondary" style="background: rgba(255,255,255,0.05); color: #fff; border: 1px solid var(--card-border);">Fiyatları Gör & Satın Al</a>
+        </div>
+    </header>
+
+    <!-- 1. HIZLI ÖZET: ÖZELLİKLER -->
+    <section id="features" class="features">
+        <div class="section-header reveal">
+            <div class="tag" style="background: rgba(59, 130, 246, 0.1); color: #3b82f6; border-color: rgba(59, 130, 246, 0.2); margin-bottom: 1rem; display: inline-block;">KURUMSAL ÇÖZÜMLER</div>
+            <h2>Üstün Teknoloji, Kesintisiz Takip</h2>
+            <p>Eğitim kurumları için modernize edilmiş profesyonel yönetim altyapısı.</p>
+        </div>
+        <div class="features-grid">
+            <div class="card feature-card indigo reveal">
+                <div class="icon-wrapper">
+                    <div class="icon-box" style="background: linear-gradient(135deg, #6366f1, #4f46e5);">
+                        <i data-lucide="share-2" style="color: #fff;"></i>
+                    </div>
+                </div>
+                <h3>Cihaz Bağlantısı</h3>
+                <p>Parmak izi cihazlarıyla bulut sistemi arasındaki kesintisiz veri aktarım köprüsü.</p>
+                <ul class="card-bullets">
+                    <li><i data-lucide="check" class="bullet-icon"></i> Saniyelik Veri Senkronizasyonu</li>
+                    <li><i data-lucide="check" class="bullet-icon"></i> Bağlantı Kaybında Veri Güvenliği</li>
+                    <li><i data-lucide="check" class="bullet-icon"></i> Anlık Cihaz Durum Bildirimleri</li>
+                </ul>
+            </div>
+
+            <div class="card feature-card blue reveal">
+                <div class="icon-wrapper">
+                    <div class="icon-box" style="background: linear-gradient(135deg, #3b82f6, #2563eb);">
+                        <i data-lucide="message-circle" style="color: #fff;"></i>
+                    </div>
+                </div>
+                <h3>WhatsApp Bildirimleri</h3>
+                <p>Veli bilgilendirme süreçlerini otomatize eden hızlı ve güvenilir mesajlaşma altyapısı.</p>
+                <ul class="card-bullets">
+                    <li><i data-lucide="check" class="bullet-icon"></i> Giriş-Çıkış Anında Bildirim</li>
+                    <li><i data-lucide="check" class="bullet-icon"></i> Canlı WhatsApp Bağlantı Takibi</li>
+                    <li><i data-lucide="check" class="bullet-icon"></i> QR Kod ile Saniyeler İçinde Kurulum</li>
+                </ul>
+            </div>
+
+            <div class="card feature-card violet reveal">
+                <div class="icon-wrapper">
+                    <div class="icon-box" style="background: linear-gradient(135deg, #8b5cf6, #7c3aed);">
+                        <i data-lucide="layout-dashboard" style="color: #fff;"></i>
+                    </div>
+                </div>
+                <h3>Kurumsal İstatistikler</h3>
+                <p>Karar destek süreçlerinizi güçlendiren derinlemesine veri analizi.</p>
+                <ul class="card-bullets">
+                    <li><i data-lucide="check" class="bullet-icon"></i> Zirve Saatlerin Otomatik Tespiti</li>
+                    <li><i data-lucide="check" class="bullet-icon"></i> Detaylı Kalış Süresi Raporları</li>
+                    <li><i data-lucide="check" class="bullet-icon"></i> Aylık Katılım Trend Analizleri</li>
+                </ul>
+            </div>
+
+            <div class="card feature-card emerald reveal">
+                <div class="icon-wrapper">
+                    <div class="icon-box" style="background: linear-gradient(135deg, #10b981, #059669);">
+                        <i data-lucide="shield-check" style="color: #fff;"></i>
+                    </div>
+                </div>
+                <h3>Devamsızlık Takibi</h3>
+                <p>Öğrenci devamsızlıklarını erkenden fark edip proaktif önlem almanızı sağlar.</p>
+                <ul class="card-bullets">
+                    <li><i data-lucide="check" class="bullet-icon"></i> Otomatik Devamsızlık Tespiti</li>
+                    <li><i data-lucide="check" class="bullet-icon"></i> Toplu Veli Bilgilendirme Servisi</li>
+                    <li><i data-lucide="check" class="bullet-icon"></i> Kritik Öğrenci Gruplandırması</li>
+                </ul>
+            </div>
+
+            <div class="card feature-card amber reveal">
+                <div class="icon-wrapper">
+                    <div class="icon-box" style="background: linear-gradient(135deg, #f59e0b, #d97706);">
+                        <i data-lucide="layers" style="color: #fff;"></i>
+                    </div>
+                </div>
+                <h3>Çoklu Şube Yönetimi</h3>
+                <p>Tüm şubelerinizi tek bir merkezi hesaptan verimli bir şekilde kontrol edin.</p>
+                <ul class="card-bullets">
+                    <li><i data-lucide="check" class="bullet-icon"></i> Merkezi Kurum Yönetim Paneli</li>
+                    <li><i data-lucide="check" class="bullet-icon"></i> Şube Bazlı Canlı Veri Takibi</li>
+                    <li><i data-lucide="check" class="bullet-icon"></i> Esnek Kullanıcı Yetkilendirme</li>
+                </ul>
+            </div>
+
+            <div class="card feature-card sky reveal">
+                <div class="icon-wrapper">
+                    <div class="icon-box" style="background: linear-gradient(135deg, #0ea5e9, #0284c7);">
+                        <i data-lucide="cloud-lightning" style="color: #fff;"></i>
+                    </div>
+                </div>
+                <h3>Güvenli Bulut Sistemi</h3>
+                <p>Verileriniz her zaman yedekli, güvende ve her cihazdan erişilebilir durumdadır.</p>
+                <ul class="card-bullets">
+                    <li><i data-lucide="check" class="bullet-icon"></i> KVKK Uyumlu Veri Depolama</li>
+                    <li><i data-lucide="check" class="bullet-icon"></i> Otomatik Günlük Bulut Yedekleme</li>
+                    <li><i data-lucide="check" class="bullet-icon"></i> 7/24 Kesintisiz Uzaktan Erişim</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. GÖRSEL KANIT: DASHBOARD VE ANALİZLER -->
+    <section id="dashboard-preview" class="analytics-preview">
+        <div class="section-header reveal" style="text-align: center; margin-bottom: 0;">
+            <div class="tag" style="background: rgba(59, 130, 246, 0.1); color: #3b82f6; border-color: rgba(59, 130, 246, 0.2); margin-bottom: 1rem; display: inline-block;">MERKEZİ KONTROL</div>
+            <h2 style="font-size: 3rem; margin-bottom: 1.5rem;">Tüm Kurumunuzu<br>Tek Panelden Yönetin</h2>
+            <p style="max-width: 700px; margin: 0 auto;">Karmaşık yoklama defterlerini ve manuel takibi geride bırakın. <span class="brand-name" style="font-size: 0.9em;">bura.da</span> dashboard ile her şey kontrolünüz altında.</p>
+        </div>
+        <div class="container">
+            <div class="analytics-image reveal">
+                <div class="mockup-container">
+                    <img src="resimler/1.1.png" alt="bura.da Dashboard" style="box-shadow: 0 40px 80px rgba(0,0,0,0.6), 0 0 50px rgba(59, 130, 246, 0.25);">
+                </div>
+            </div>
+            <div class="analytics-content reveal">
+                <ul class="feature-list">
+                    <li>
+                        <i data-lucide="layout" style="color: #3b82f6;"></i> 
+                        <strong>Merkezi Yönetim</strong>
+                        <span>Kurumun genel doluluk oranını ve kapasiteyi tek bir panelden yönetin.</span>
+                    </li>
+                    <li>
+                        <i data-lucide="activity" style="color: #3b82f6;"></i> 
+                        <strong>Canlı Veri Akışı</strong>
+                        <span>Öğrenci hareketlerini saniyelik bildirimlerle anlık takip edin.</span>
+                    </li>
+                    <li>
+                        <i data-lucide="users-2" style="color: #3b82f6;"></i> 
+                        <strong>Dijital Portföy</strong>
+                        <span>Öğrenci bilgilerine ve kayıt durumlarına tek tıkla erişin.</span>
+                    </li>
+                    <li>
+                        <i data-lucide="smartphone" style="color: #3b82f6;"></i> 
+                        <strong>Sistem İzleme</strong>
+                        <span>WhatsApp bağlantısını ve cihaz durumlarını anlık monitör edin.</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="individual-report" class="analytics-preview">
+        <div class="section-header reveal" style="text-align: center; margin-bottom: 0;">
+            <div class="tag" style="background: rgba(139, 92, 246, 0.1); color: #8b5cf6; border-color: rgba(139, 92, 246, 0.2); margin-bottom: 1rem; display: inline-block;">VELİ MEMNUNİYETİ</div>
+            <h2 style="font-size: 3rem; margin-bottom: 1.5rem;">Bireysel Takip ve<br>Dijital Raporlama</h2>
+            <p style="max-width: 700px; margin: 0 auto;">Öğrencilerin kurum içindeki verimliliğini takip edin. Velilere sadece devam bilgisi değil, derinlemesine analizler sunun.</p>
+        </div>
+        <div class="container reverse">
+            <div class="analytics-content reveal">
+                <ul class="feature-list">
+                    <li>
+                        <i data-lucide="clock" style="color: #8b5cf6;"></i> 
+                        <strong>Ortalama Kalış Süresi</strong>
+                        <span>Öğrencinin kurumda geçirdiği toplam süreyi analiz edin.</span>
+                    </li>
+                    <li>
+                        <i data-lucide="calendar-check" style="color: #8b5cf6;"></i> 
+                        <strong>Katılım Trendleri</strong>
+                        <span>Son 30 günlük devamlılık ve katılım istatistiklerini raporlayın.</span>
+                    </li>
+                    <li>
+                        <i data-lucide="bar-chart-2" style="color: #8b5cf6;"></i> 
+                        <strong>Zaman Dağılımı</strong>
+                        <span>Yoğunluk grafiklerini ve kullanım alışkanlıklarını inceleyin.</span>
+                    </li>
+                    <li>
+                        <i data-lucide="history" style="color: #8b5cf6;"></i> 
+                        <strong>Geçmiş Kayıtlar</strong>
+                        <span>Geçmişe dönük tüm verilere ve giriş-çıkış detaylarına anında ulaşın.</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="analytics-image reveal">
+                <img src="resimler/image copy.png" alt="bura.da Öğrenci Karnesi" style="box-shadow: 0 40px 80px rgba(0,0,0,0.6), 0 0 50px rgba(139, 92, 246, 0.25); border-width: 1px;">
+            </div>
+        </div>
+    </section>
+
+    <section id="analytics" class="analytics-preview">
+        <div class="section-header reveal" style="text-align: center; margin-bottom: 0;">
+            <div class="tag" style="background: rgba(16, 185, 129, 0.1); color: #10b981; border-color: rgba(16, 185, 129, 0.2); margin-bottom: 1rem; display: inline-block;">KURUMSAL VERİMLİLİK</div>
+            <h2 style="font-size: 3rem; margin-bottom: 1.5rem;">Gelişmiş Kurum<br>İstatistikleri</h2>
+            <p style="max-width: 700px; margin: 0 auto;">Kurumunuzun nabzını profesyonel verilerle tutun. Zirve saatleri tespit ederek kaynaklarınızı doğru yönetin.</p>
+        </div>
+        <div class="container">
+            <div class="analytics-image reveal">
+                <img src="resimler/2.1.png" alt="bura.da Analiz Merkezi" style="box-shadow: 0 40px 80px rgba(0,0,0,0.6), 0 0 50px rgba(16, 185, 129, 0.25); border-width: 1px;">
+            </div>
+            <div class="analytics-content reveal">
+                <ul class="feature-list">
+                    <li>
+                        <i data-lucide="clock" style="color: #10b981;"></i> 
+                        <strong>Toplam Kalış Süresi</strong>
+                        <span>Öğrencilerin kurumda geçirdiği toplam saati şubeler bazında görün.</span>
+                    </li>
+                    <li>
+                        <i data-lucide="user-check" style="color: #10b981;"></i> 
+                        <strong>Ortalama Süre</strong>
+                        <span>Öğrencilerin geçirdiği ortalama süreyi haftalık/aylık izleyin.</span>
+                    </li>
+                    <li>
+                        <i data-lucide="users" style="color: #10b981;"></i> 
+                        <strong>Günlük Öğrenci Ortalaması</strong>
+                        <span>Kuruma günde ortalama kaç öğrencinin geldiğini net rakamlarla görün.</span>
+                    </li>
+                    <li>
+                        <i data-lucide="line-chart" style="color: #10b981;"></i> 
+                        <strong>Katılım Oranı</strong>
+                        <span>Genel katılım performansını ve devamsızlık trendlerini anlık izleyin.</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="absence-tracking" class="analytics-preview">
+        <div class="section-header reveal" style="text-align: center; margin-bottom: 0;">
+            <div class="tag" style="background: rgba(245, 158, 11, 0.1); color: #f59e0b; border-color: rgba(245, 158, 11, 0.2); margin-bottom: 1rem; display: inline-block;">DEVAMSIZLIK TAKİBİ</div>
+            <h2 style="font-size: 3rem; margin-bottom: 1.5rem;">Profesyonel<br>Devamsızlık Takibi</h2>
+            <p style="max-width: 700px; margin: 0 auto;">Gelmeyen öğrencileri otomatik olarak tespit edin ve veli bilgilendirme süreçlerini hızlandırın.</p>
+        </div>
+        <div class="container reverse">
+            <div class="analytics-content reveal">
+                <ul class="feature-list">
+                    <li>
+                        <i data-lucide="alert-triangle" style="color: #f59e0b;"></i> 
+                        <strong>Otomatik Tespit</strong>
+                        <span>Uzun süreli devamsızlıkları sistem üzerinden anlık olarak yakalayın.</span>
+                    </li>
+                    <li>
+                        <i data-lucide="user-x" style="color: #f59e0b;"></i> 
+                        <strong>Kayıp Önleme</strong>
+                        <span>Devamsızlığı erkenden fark ederek öğrenci kaybını proaktif engelleyin.</span>
+                    </li>
+                    <li>
+                        <i data-lucide="message-square" style="color: #f59e0b;"></i> 
+                        <strong>Veli Bilgilendirme</strong>
+                        <span>Devamsızlık durumlarını WhatsApp üzerinden velilere anlık raporlayın.</span>
+                    </li>
+                    <li>
+                        <i data-lucide="users" style="color: #f59e0b;"></i> 
+                        <strong>Gruplandırma</strong>
+                        <span>Sürekli gelmeyen öğrencileri otomatik olarak "Riskli" kategorisine alın.</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="analytics-image reveal">
+                <img src="resimler/devamsizlik.png" alt="bura.da Devamsızlık Takibi" style="box-shadow: 0 40px 80px rgba(0,0,0,0.6), 0 0 50px rgba(245, 158, 11, 0.25); border-width: 1px;">
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. AKSİYON: FİYATLANDIRMA -->
+    <section id="pricing" class="pricing">
+        <div class="section-header reveal">
+            <h2>Kurumsal Fiyatlandırma</h2>
+            <p>Kurumunuzun ölçeğine en uygun paketi seçin.</p>
+            <p style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 0.5rem; opacity: 0.8;">
+                * Fiyatlar yıllık peşin ödemelerde geçerli aylık tutarlardır.<br>
+                * Tek seferlik <strong>10.000 TL Aktivasyon + Cihaz Ücreti</strong> uygulanır.
+            </p>
+        </div>
+        <div class="pricing-grid">
+            <!-- Başlangıç Paketi -->
+            <div class="card price-card reveal">
+                <div class="tier">BAŞLANGIÇ</div>
+                <div class="price">₺999<span> /ay</span></div>
+                <ul class="price-features">
+                    <li><strong>Tek Şube</strong></li>
+                    <li><strong>100 Öğrenci</strong></li>
+                    <li><strong>2 Cihaz</strong></li>
+                    <li>WhatsApp Bildirimleri</li>
+                    <li>Temel İstatistikler</li>
+                    <li>Devamsızlık Takibi</li>
+                </ul>
+                <a href="https://wa.me/905524983282?text=Merhaba,%20bura.da%20sistemi%20hakkında%20bilgi%20almak%20istiyorum." target="_blank" rel="noopener noreferrer" class="cta-button" style="width: 100%; text-align: center;">Hemen Başla</a>
+            </div>
+
+            <!-- Profesyonel Paket -->
+            <div class="card price-card featured reveal">
+                <div class="popular-tag">EN POPÜLER</div>
+                <div class="tier">PROFESYONEL</div>
+                <div class="price">₺1.499<span> /ay</span></div>
+                <ul class="price-features">
+                    <li><strong>2 Şube</strong></li>
+                    <li><strong>250 Öğrenci</strong></li>
+                    <li><strong>4 Cihaz</strong></li>
+                    <li>WhatsApp Bildirimleri</li>
+                    <li>Gelişmiş İstatistikler</li>
+                    <li>Devamsızlık Takibi</li>
+                </ul>
+                <a href="https://wa.me/905524983282?text=Merhaba,%20bura.da%20sistemi%20hakkında%20bilgi%20almak%20istiyorum." target="_blank" rel="noopener noreferrer" class="cta-button" style="width: 100%; text-align: center;">Hemen Başla</a>
+            </div>
+
+            <!-- Kurumsal Paket -->
+            <div class="card price-card reveal">
+                <div class="tier">KURUMSAL</div>
+                <div class="price">Teklif Alın</div>
+                <ul class="price-features">
+                    <li><strong>Sınırsız Şube</strong></li>
+                    <li><strong>Sınırsız Öğrenci</strong></li>
+                    <li><strong>Sınırsız Cihaz</strong></li>
+                    <li>Tüm Profesyonel Özellikler</li>
+                    <li>Özel Müşteri Temsilcisi</li>
+                    <li>7/24 Kesintisiz Destek</li>
+                </ul>
+                <a href="https://wa.me/905524983282?text=Merhaba,%20bura.da%20Kurumsal%20paket%20hakkında%20teklif%20almak%20istiyorum." target="_blank" rel="noopener noreferrer" class="cta-button" style="width: 100%; text-align: center;">Bize Ulaşın</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. SSS BÖLÜMÜ -->
+    <section id="faq" class="faq">
+        <div class="section-header reveal" style="text-align: center; margin-bottom: 2rem;">
+            <div class="tag" style="background: rgba(59, 130, 246, 0.1); color: #3b82f6; border-color: rgba(59, 130, 246, 0.2); margin-bottom: 1rem; display: inline-block;">MERAK EDİLENLER</div>
+            <h2>Sıkça Sorulan Sorular</h2>
+            <p>bura.da sistemi hakkında merak ettiğiniz her şey burada.</p>
+        </div>
+        <div class="faq-container reveal">
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>Sistem kurulumu nasıl yapılıyor?</span>
+                    <i data-lucide="chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Parmak izi cihazlarımızı kurumunuza gönderiyoruz. Cihazı internete bağlamanız yeterli, uzman ekibimiz uzaktan bağlantı ile saniyeler içinde kurulumu tamamlayarak sisteminizi aktif hale getiriyor.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>Verilerimiz KVKK'ya uygun mu?</span>
+                    <i data-lucide="chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Evet, sistemimiz tamamen KVKK uyumludur. Biyometrik veriler cihaz üzerinde şifreli olarak tutulur ve bulut sistemimize sadece kimlik eşleşmesi için anonim kodlar gönderilir.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>İnternet kesilirse yoklama alınmaya devam eder mi?</span>
+                    <i data-lucide="chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Kesinlikle. Cihazlarımız çevrimdışı (offline) çalışma özelliğine sahiptir. İnternet geri geldiği an tüm biriken veriler bulut sistemimizle otomatik olarak senkronize edilir.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>Veli bildirimleri için ekstra ücret öder miyiz?</span>
+                    <i data-lucide="chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Hayır. bura.da paketlerimizde WhatsApp bildirimleri tamamen ücretsiz ve sınırsızdır. Herhangi bir SMS paketi veya ekstra servis ücreti ödemezsiniz.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FINAL CTA: HAREKETE GEÇİRİCİ MESAJ -->
+    <section class="final-cta reveal">
+        <div class="cta-card">
+            <div class="cta-content">
+                <div class="tag" style="background: rgba(255,255,255,0.1); color: #fff; border-color: rgba(255,255,255,0.2);">ŞİMDİ TAM ZAMANI</div>
+                <h2>Kurumunuzun Kontrolünü<br>Elinize Alın</h2>
+                <p>Karmaşık listelerden kurtulun, velilerinize profesyonel bir deneyim sunun. <span class="brand-name">bura.da</span> ile dijital dönüşümü bugün başlatın.</p>
+                <div class="cta-buttons">
+                    <a href="https://wa.me/905524983282?text=Merhaba,%20bura.da%20sistemi%20hakkında%20bilgi%20almak%20istiyorum." target="_blank" rel="noopener noreferrer" class="cta-button">Hemen Başla</a>
+                    <a href="https://wa.me/905524983282?text=Merhaba,%20bura.da%20Kurumsal%20teklif%20almak%20istiyorum." target="_blank" rel="noopener noreferrer" class="cta-button secondary" style="background: rgba(255,255,255,0.05); color: #fff; border: 1px solid rgba(255,255,255,0.1);">Bize Ulaşın</a>
+                </div>
+            </div>
+            <div class="cta-glow"></div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-logo">
+            <i data-lucide="fingerprint" style="color: #3b82f6;"></i>
+            <span class="brand-name">bura.da</span>
+        </div>
+        <p class="copyright">&copy; 2026 <span class="brand-name" style="font-size: 0.8rem;">bura.da</span>. Tüm hakları saklıdır.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
