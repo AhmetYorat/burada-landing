@@ -128,19 +128,21 @@ h1, h2, h3 {
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); /* Pürüzsüz geçiş */
 }
 
-.logo i {
-    width: 32px; /* Başlangıç ikon boyutu */
-    height: 32px;
-    transition: all 0.4s ease;
+.logo i, .logo svg {
+    width: 40px !important; /* SVG olduğu için !important ile garantiye alalım */
+    height: 40px !important;
+    stroke-width: 2.5px;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .navbar.scrolled .logo {
     font-size: 1.5rem; /* Kaydırınca küçülür */
 }
 
-.navbar.scrolled .logo i {
-    width: 24px; /* Kaydırınca ikon da küçülür */
-    height: 24px;
+.navbar.scrolled .logo i, .navbar.scrolled .logo svg {
+    width: 24px !important;
+    height: 24px !important;
+    stroke-width: 2px;
 }
 
 .nav-links {
